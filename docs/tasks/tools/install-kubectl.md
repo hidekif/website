@@ -10,7 +10,7 @@ Use the Kubernetes command-line tool, [kubectl](/docs/user-guide/kubectl/), to d
 {% endcapture %}
 
 {% capture prerequisites %}
-Use a version of kubectl that is the same version as your server or later. Using an older kubectl with a newer server might produce validation errors.
+Use a version of kubectl that is the same version as your server or later. Using an older kubectl with a newer server might produce validation errors. Version skew between kubectl and your server is supported for 1 minor version. For example, v1.8 kubectl is supported on v1.7 and v1.8 servers, but not on v1.6.
 {% endcapture %}
 
 ## Install kubectl
